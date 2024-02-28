@@ -4,6 +4,7 @@ import chatContext from '../../context/chatContext'
 
 const Message = ({message}) => {
 
+
   const {currentUser} = useContext(authContext)
   const {data} = useContext(chatContext)
 
@@ -27,8 +28,7 @@ const Message = ({message}) => {
           {message.img && <img src={message.img} alt=''/>}
         </span>
       </div>
-
-    
+ 
   )
 }
 

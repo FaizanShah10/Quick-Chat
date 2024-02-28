@@ -34,6 +34,9 @@ const Login = () => {
         </form>
         <p>You don't have an account? <Link to="/register">Register</Link></p>
       </div>
+      <div className="copyright">
+        <small>&copy; Made by Faizan Naveed</small>
+      </div>
     </div>
   );
 };

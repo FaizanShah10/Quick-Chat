@@ -83,6 +83,9 @@ const Register = () => {
           You do have an account? <Link to="/login">Login</Link>
         </p>
       </div>
+      <div className="copyright">
+        <small>&copy; Made by Faizan Naveed</small>
+      </div>
     </div>
   );
 };
