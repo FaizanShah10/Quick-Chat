@@ -3,6 +3,7 @@ import SideBar from '../components/leftColumn/SideBar'
 import Chat from '../components/rightColumn/Chat'
 
 
+
 const Home = () => {
   return (
     
@@ -10,9 +11,9 @@ const Home = () => {
             <div className='container'>
             <SideBar/>
             <Chat />
+            </div>
             <div className="copyright">
                 <small>&copy; Made by Faizan Naveed</small>
-            </div>
             </div>
         </div>
       
